@@ -3,14 +3,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
-/**
- * TODO
- *
- * Complete the AdjacencyList class, implementing all of the
- * methods needed for the Graph interface and
- * finish the constructor.
- *
- */
+
 public class UndirectedAdjacencyList implements Graph<Integer> {
     ArrayList<LinkedList<Integer>> adjacent;
 
